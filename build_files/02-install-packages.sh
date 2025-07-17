@@ -4,6 +4,7 @@ set -ouex pipefail
 
 # basic tools
 dnf5 -y install curl
+dnf5 -y install dnf5-plugins
 dnf5 -y install duf
 dnf5 -y install openssh
 dnf5 -y install python
